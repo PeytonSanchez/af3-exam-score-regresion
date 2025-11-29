@@ -57,7 +57,6 @@ Métricas implementadas:
 - **MAE** – Error absoluto medio  
 - **R²** – Coeficiente de determinación  
 
-Además, se genera una gráfica de:
 
 
 
