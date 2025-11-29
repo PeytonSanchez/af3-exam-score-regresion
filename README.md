@@ -26,5 +26,38 @@ Aplicar el flujo completo de **aprendizaje supervisado** para construir un model
 - **Variable objetivo:** `Exam_Score`  
 - **Tipo de problema:** Regresión (valor continuo)
 
-El archivo debe colocarse aquí:
+
+---
+
+# 🧪 Flujo de Trabajo del Proyecto
+
+## 1️⃣ Selección del Caso de Estudio
+- Dataset real y público.
+- Más de 200 registros y múltiples variables.
+- Adecuado para regresión lineal.
+
+## 2️⃣ Preprocesamiento
+Incluye:
+- Eliminación de valores nulos.
+- Imputación de valores faltantes numéricos.
+- Codificación one-hot de variables categóricas.
+- Normalización con StandardScaler.
+- Revisión del DataFrame antes y después.
+
+## 3️⃣ Implementación del Modelo
+- Uso de `LinearRegression()`.
+- División 70% train – 30% test.
+- Normalización estándar.
+- Entrenamiento supervisado.
+
+## 4️⃣ Evaluación del Modelo
+Métricas implementadas:
+
+- **MSE** – Error cuadrático medio  
+- **MAE** – Error absoluto medio  
+- **R²** – Coeficiente de determinación  
+
+Además, se genera una gráfica de:
+
+
 
