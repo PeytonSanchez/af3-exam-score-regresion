@@ -55,7 +55,73 @@ Métricas implementadas:
 
 - **MSE** – Error cuadrático medio  
 - **MAE** – Error absoluto medio  
-- **R²** – Coeficiente de determinación  
+- **R²** – Coeficiente de determinación
+Valores reales vs valores predichos
+
+
+Guardada en:
+
+
+
+imagenes/exam_scatter.png
+
+
+## 5️⃣ Conclusiones
+Incluye:
+- Interpretación de resultados.
+- Discusión del rendimiento.
+- Limitaciones del modelo.
+- Posibles mejoras: más variables, modelos no lineales, aumento del dataset.
+
+---
+
+# ⚙️ Requisitos del Entorno
+
+Instalar dependencias:
+
+``bash
+pip install -r requirements.txt
+
+
+O manualmente:
+
+pip install pandas numpy scikit-learn matplotlib jupyter seaborn
+
+▶️ Cómo Ejecutar el Notebook
+
+Colocar el CSV en /data/.
+
+Abrir terminal en la carpeta del proyecto.
+
+Ejecutar:
+
+jupyter notebook
+
+
+Abrir:
+
+notebooks/AF3_exam_score.ipynb
+
+
+Ejecutar todas las celdas en orden.
+
+▶️ Cómo Ejecutar el Script .py
+python src/modelo_regresion.py
+
+
+El archivo realiza:
+
+Carga del dataset.
+
+Preprocesamiento.
+
+Entrenamiento.
+
+Predicción.
+
+Evaluación.
+
+Generación de gráfica.
 
 
 
