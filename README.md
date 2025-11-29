@@ -89,43 +89,43 @@ pip install pandas numpy scikit-learn matplotlib jupyter seaborn
 
 --
 
-▶️ Cómo Ejecutar el Notebook
+# ▶️ Cómo Ejecutar el Notebook
 
 Colocar el CSV en /data/.
 
 Abrir terminal en la carpeta del proyecto.
 
-Ejecutar:
+-Ejecutar:
 
 jupyter notebook
 
 
-Abrir:
+-Abrir:
 
 notebooks/AF3_exam_score.ipynb
 
 
-Ejecutar todas las celdas en orden.
+-Ejecutar todas las celdas en orden.
 
 --
 
-▶️ Cómo Ejecutar el Script .py
+# ▶️ Cómo Ejecutar el Script .py
 python src/modelo_regresion.py
 
 
 El archivo realiza:
 
-Carga del dataset.
+-Carga del dataset.
 
-Preprocesamiento.
+-Preprocesamiento.
 
-Entrenamiento.
+-Entrenamiento.
 
-Predicción.
+-Predicción.
 
-Evaluación.
+-Evaluación.
 
-Generación de gráfica.
+-Generación de gráfica.
 
 
 
