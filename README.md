@@ -87,6 +87,8 @@ O manualmente:
 
 pip install pandas numpy scikit-learn matplotlib jupyter seaborn
 
+--
+
 ▶️ Cómo Ejecutar el Notebook
 
 Colocar el CSV en /data/.
@@ -104,6 +106,8 @@ notebooks/AF3_exam_score.ipynb
 
 
 Ejecutar todas las celdas en orden.
+
+--
 
 ▶️ Cómo Ejecutar el Script .py
 python src/modelo_regresion.py
